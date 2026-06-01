@@ -1,0 +1,18 @@
+.stamp {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 2px solid black;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 220px;
+}
+
+.stamp.filled {
+  background: red;
+}
