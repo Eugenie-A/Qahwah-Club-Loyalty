@@ -1,9 +1,22 @@
-.stamp {
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: white;
-  border: 2px solid black;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+  margin-top: 1opx;
+  margin-bottom: 25px;
+  display: block;
+}
+
+#add-btn {
+  margin-top: 25px;
 }
 
 #grid {
@@ -11,6 +24,15 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   width: 220px;
+  justify-content: center;
+}
+
+.stamp {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 2px solid black;
 }
 
 .stamp.filled {
